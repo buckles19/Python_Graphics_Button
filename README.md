@@ -1,6 +1,10 @@
 # Python_Graphics_Button
 A button class that can be used with the Graphics Python module
 
+Important:
+  
+  The graphics module must be called in your main function for the code to work!
+
 Current Features:
 
   Button()
