@@ -17,11 +17,11 @@ Current Features:
     
   click()
   
-    allows the button to be clicked by the user and returns a True value if clicked on and a False value if clicked somewhere else
+    allows the button to be clicked by the user and returns a True value if clicked on and a False value if clicked elsewhere
     
   check()
   
-    allows the button to be checked for a click from the user and returns a True value if clicked on and a False value if clicked somewhere else
+    allows the button to be checked for a click from the user and returns a True value if clicked on and a False value if clicked elsewhere
     
   movingClick()
   
