@@ -18,6 +18,11 @@ Current Features:
   click()
   
     allows the button to be clicked by the user and returns a True value if clicked on and a False value if clicked somewhere else
+    
+  check()
+  
+    allows the button to be checked for a click from the user and returns a True value if clicked on and a False value if clicked somewhere else
+    
   movingClick()
   
     asks for number of clicks allowed and then moves the button to wherever the mouse is clicked in the window
