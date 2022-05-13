@@ -34,6 +34,24 @@ class Button:
             pressvalue = False
             self.valuelist.append("False")
         return pressvalue
+    
+    def check(self):
+        press = self.win.checkMouse()
+        if press != None:
+            if self.p2.getX() > press.getX() > self.p1.getX():
+                if self.p2.getY() > press.getY() > self.p1.getY():
+                    pressvalue = True
+                    self.valuelist.append("True")
+                else:
+                    pressvalue = False
+                    self.valuelist.append("False")
+            else:
+                pressvalue = False
+                self.valuelist.append("False")
+            return pressvalue
+        else:
+            pressvalue = False
+            return pressvalue
 
     def movingClick(self, clicks):
         a = self.x
